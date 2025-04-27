@@ -1,83 +1,83 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the administration of Protector"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">Description</h4>
+    <h1 class="head">幫助： <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="返回 Protector 管理">Protector <img src="<{xoAdminIcons 'home.png'}>" alt="返回 Protector 管理"/></a></h1>
+    <!-- -----幫助內容 ---------- -->
+    <h4 class="odd">描述</h4>
 
-    <p class="even">Protector is a module to defend your XOOPS CMS from various malicious attacks.</p>
-    <h4 class="odd">Install/uninstall</h4>
+    <p class="even">Protector 是一個模組，用於防禦您的 XOOPS CMS 免受各種惡意攻擊。</p>
+    <h4 class="odd">安裝/卸載</h4>
 
-    <p>First, define XOOPS_TRUST_PATH into mainfile.php if you've never done it yet.</p>
+    <p>首先，如果您還沒有這麼做，請在 mainfile.php 中定義 XOOPS_TRUST_PATH。</p>
     <br>
 
-    <p>Copy html/modules/protector in the archive into your XOOPS_ROOT_PATH/modules/</p>
+    <p>將壓縮包中的 html/modules/protector 複製到您的 XOOPS_ROOT_PATH/modules/ 目錄中。</p>
 
-    <p>Copy xoops_trust_path/modules/protector in the archive into your XOOPS_TRUST_PATH/modules/</p>
+    <p>將壓縮包中的 xoops_trust_path/modules/protector 複製到您的 XOOPS_TRUST_PATH/modules/ 目錄中。</p>
     <br>
 
-    <p>Turn permission of XOOPS_TRUST_PATH/modules/protector/configs writable</p>
-    <h4 class="odd">= How to rescue =</h4>
+    <p>將 XOOPS_TRUST_PATH/modules/protector/configs 的權限設置為可寫</p>
+    <h4 class="odd">= 如何恢復 =</h4>
 
-    <p class="even">If you've been banned from Protector, just delete files under XOOPS_TRUST_PATH/modules/protector/configs/</p>
-    <h4 class="odd">Introduction for filter-plugins in this archive.</h4>
+    <p class="even">如果您被 Protector 禁用，只需刪除 XOOPS_TRUST_PATH/modules/protector/configs/ 目錄下的檔案即可。</p>
+    <h4 class="odd">過濾器插件介紹</h4>
 
     <p class="even">- postcommon_post_deny_by_rbl.php
         <br>
-        an anti-SPAM plugin.
+        反垃圾郵件插件。
         <br>
-        All of Post from IP registered in RBL will be rejected.
+        所有來自於 RBL 註冊 IP 的發文將被拒絕。
         <br>
-        This plugin can slow the performance of Post, especially chat modules.
+        此插件可能會降低發文性能，特別是在聊天模組中。
     </p>
 
     <p>- postcommon_post_deny_by_httpbl.php
         <br>
-        an anti-SPAM plugin.
+        反垃圾郵件插件。
         <br>
-        All of Post from IP registered in http:BL will be rejected.
+        所有來自於 http:BL 註冊 IP 的發文將被拒絕。
         <br>
-        Before using it, get HTTPBL_KEY from http://www.projecthoneypot.org/ and set it into the filter file.
+        使用此插件前，請從 http://www.projecthoneypot.org/ 獲取 HTTPBL_KEY 並設置到過濾器文件中。
         <br>
         define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;
     </p>
 
     <p class="even">- postcommon_post_need_multibyte.php
         <br>
-        an anti-SPAM plugin.
+        反垃圾郵件插件。
         <br>
-        Post without multibyte characters will be rejected.
+        沒有多字節字符的發文將被拒絕。
         <br>
-        This plugin is only for sites of japanese, tchinese, schinese, and korean.
+        此插件僅適用於日文、繁體中文、簡體中文和韓文網站。
     </p>
 
     <p>- postcommon_post_htmlpurify4guest.php
         <br>
-        All post data sent by guests will be purified by HTMLPurifier.
+        所有來自訪客的發文將使用 HTMLPurifier 進行過濾。
         <br>
-        If you allow guests posting HTML, I strongly recommend you to enable it.
+        如果您允許訪客發佈 HTML，強烈建議您啟用此功能。
     </p>
 
-    <p class="even">-postcommon_register_insert_js_check.php
+    <p class="even">- postcommon_register_insert_js_check.php
         <br>
-        This plugin prevents your site from robot's user registering.
+        此插件防止機器人用戶註冊。
         <br>
-        Required JavaScript working on the vistors browser.
+        需要在訪客瀏覽器上運行 JavaScript。
     </p>
 
     <p>- bruteforce_overrun_message.php
         <br>
-        Specify a message for visitors tried wrong passwords more than the specified times.
+        設定一個訊息，給那些錯誤輸入密碼超過指定次數的訪客。
         <br>
-        All plugins named *_message.php specifys the message for rejected accesses.
+        所有命名為 *_message.php 的插件都會指定拒絕訪問的訊息。
     </p>
 
     <p class="even">- precommon_bwlimit_errorlog.php
         <br>
-        When bandwidth limitation works unfortunately, this plugin logs it into Apache's error_log.
+        當帶寬限制啟用時，這個插件會將錯誤記錄到 Apache 的 error_log 中。
     </p>
 
-    <p>All plugins named *_errorlog.php log some informations into Apaches error_log.</p>
-    <h4 class="odd">Tutorial</h4>
+    <p>所有命名為 *_errorlog.php 的插件都會將一些信息記錄到 Apache 的 error_log 中。</p>
+    <h4 class="odd">教學</h4>
 
-    <p class="even">Tutorial coming soon.</p>
-    <!-- -----Help Content ---------- -->
+    <p class="even">教學即將推出。</p>
+    <!-- -----幫助內容 ---------- -->
 </div>

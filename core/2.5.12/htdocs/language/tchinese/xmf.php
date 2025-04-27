@@ -1,8 +1,8 @@
 <?php
 
-define('_AM_XMF_MODULE_NOTFOUND','Please install or reactivate %1$s module. Minimum version required: %2$s');
-define('_AM_XMF_MODULE_VERSION','Minimum %1$s module version required: %2$s (your version is %3$s)');
-define('_AM_XMF_MODULE_INSTALLED', 'The module \'%s\' is installed!');
-define('_AM_XMF_MODULE_NOT_INSTALLED', 'The module \'%s\' is not installed!');
+define('_AM_XMF_MODULE_NOTFOUND', '請安裝或重新啟用 %1$s 模組。最低要求版本：%2$s');
+define('_AM_XMF_MODULE_VERSION', '最低要求 %1$s 模組版本：%2$s（您的版本是 %3$s）');
+define('_AM_XMF_MODULE_INSTALLED', '模組 \'%s\' 已安裝！');
+define('_AM_XMF_MODULE_NOT_INSTALLED', '模組 \'%s\' 尚未安裝！');
 
-define('_DB_XMF_TABLE_IS_NOT_DEFINED','Table is not defined');
+define('_DB_XMF_TABLE_IS_NOT_DEFINED', '資料表尚未定義');

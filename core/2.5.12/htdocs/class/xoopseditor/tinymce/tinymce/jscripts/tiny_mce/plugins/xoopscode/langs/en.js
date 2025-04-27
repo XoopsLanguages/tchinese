@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.xoopscode',{
-    code_desc:"Insert code"
+tinyMCE.addI18n('zh-TW.xoopscode',{
+    code_desc:"插入程式碼"
 });

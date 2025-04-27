@@ -11,65 +11,65 @@
 //define('_CAL_FORMAT',"Y-m-d");
 define('_CAL_FORMAT', _SHORTDATESTRING);
 
-//%%%%%     JQuery Calendar Time Zone   %%%%
+//%%%%%     JQuery 日曆時區   %%%%
 define('_CAL_JQUERY_FORMAT', 'yy/mm/dd');
-// Week Mini Text
-define('_CAL_MIN_SUNDAY', 'Su');
-define('_CAL_MIN_MONDAY', 'Mo');
-define('_CAL_MIN_TUESDAY', 'Tu');
-define('_CAL_MIN_WEDNESDAY', 'We');
-define('_CAL_MIN_THURSDAY', 'Th');
-define('_CAL_MIN_FRIDAY', 'Fr');
-define('_CAL_MIN_SATURDAY', 'Sa');
-// Week Short Text
-define('_CAL_SHORT_SUNDAY', 'Sun');
-define('_CAL_SHORT_MONDAY', 'Mon');
-define('_CAL_SHORT_TUESDAY', 'Tue');
-define('_CAL_SHORT_WEDNESDAY', 'Wed');
-define('_CAL_SHORT_THURSDAY', 'Thu');
-define('_CAL_SHORT_FRIDAY', 'Fri');
-define('_CAL_SHORT_SATURDAY', 'Sat');
-define('_CAL_SHORT_JANUARY', 'January');
-define('_CAL_SHORT_FEBRUARY', 'February');
-define('_CAL_SHORT_MARCH', 'March');
-define('_CAL_SHORT_APRIL', 'April');
-define('_CAL_SHORT_MAY', 'May');
-define('_CAL_SHORT_JUNE', 'June');
-define('_CAL_SHORT_JULY', 'July');
-define('_CAL_SHORT_AUGUST', 'August');
-define('_CAL_SHORT_SEPTEMBER', 'September');
-define('_CAL_SHORT_OCTOBER', 'October');
-define('_CAL_SHORT_NOVEMBER', 'November');
-define('_CAL_SHORT_DECEMBER', 'December');
-// Normal Text
-define('_CAL_SUNDAY', 'Sunday');
-define('_CAL_MONDAY', 'Monday');
-define('_CAL_TUESDAY', 'Tuesday');
-define('_CAL_WEDNESDAY', 'Wednesday');
-define('_CAL_THURSDAY', 'Thursday');
-define('_CAL_FRIDAY', 'Friday');
-define('_CAL_SATURDAY', 'Saturday');
-define('_CAL_JANUARY', 'January');
-define('_CAL_FEBRUARY', 'February');
-define('_CAL_MARCH', 'March');
-define('_CAL_APRIL', 'April');
-define('_CAL_MAY', 'May');
-define('_CAL_JUNE', 'June');
-define('_CAL_JULY', 'July');
-define('_CAL_AUGUST', 'August');
-define('_CAL_SEPTEMBER', 'September');
-define('_CAL_OCTOBER', 'October');
-define('_CAL_NOVEMBER', 'November');
-define('_CAL_DECEMBER', 'December');
-// Others
-define('_CAL_TGL1STD', 'Toggle first day of week');
-define('_CAL_PREVYR', 'Prev. year (hold for menu)');
-define('_CAL_PREVMNTH', 'Prev. month (hold for menu)');
-define('_CAL_GOTODAY', 'Go Today');
-define('_CAL_NXTMNTH', 'Next month (hold for menu)');
-define('_CAL_NEXTYR', 'Next year (hold for menu)');
-define('_CAL_SELDATE', 'Select date');
-define('_CAL_DRAGMOVE', 'Drag to move');
-define('_CAL_TODAY', 'Today');
-define('_CAL_DISPM1ST', 'Display Monday first');
-define('_CAL_DISPS1ST', 'Display Sunday first');
+// 星期簡短文字
+define('_CAL_MIN_SUNDAY', '日');
+define('_CAL_MIN_MONDAY', '一');
+define('_CAL_MIN_TUESDAY', '二');
+define('_CAL_MIN_WEDNESDAY', '三');
+define('_CAL_MIN_THURSDAY', '四');
+define('_CAL_MIN_FRIDAY', '五');
+define('_CAL_MIN_SATURDAY', '六');
+// 星期縮寫文字
+define('_CAL_SHORT_SUNDAY', '週日');
+define('_CAL_SHORT_MONDAY', '週一');
+define('_CAL_SHORT_TUESDAY', '週二');
+define('_CAL_SHORT_WEDNESDAY', '週三');
+define('_CAL_SHORT_THURSDAY', '週四');
+define('_CAL_SHORT_FRIDAY', '週五');
+define('_CAL_SHORT_SATURDAY', '週六');
+define('_CAL_SHORT_JANUARY', '一月');
+define('_CAL_SHORT_FEBRUARY', '二月');
+define('_CAL_SHORT_MARCH', '三月');
+define('_CAL_SHORT_APRIL', '四月');
+define('_CAL_SHORT_MAY', '五月');
+define('_CAL_SHORT_JUNE', '六月');
+define('_CAL_SHORT_JULY', '七月');
+define('_CAL_SHORT_AUGUST', '八月');
+define('_CAL_SHORT_SEPTEMBER', '九月');
+define('_CAL_SHORT_OCTOBER', '十月');
+define('_CAL_SHORT_NOVEMBER', '十一月');
+define('_CAL_SHORT_DECEMBER', '十二月');
+// 完整文字
+define('_CAL_SUNDAY', '星期日');
+define('_CAL_MONDAY', '星期一');
+define('_CAL_TUESDAY', '星期二');
+define('_CAL_WEDNESDAY', '星期三');
+define('_CAL_THURSDAY', '星期四');
+define('_CAL_FRIDAY', '星期五');
+define('_CAL_SATURDAY', '星期六');
+define('_CAL_JANUARY', '一月');
+define('_CAL_FEBRUARY', '二月');
+define('_CAL_MARCH', '三月');
+define('_CAL_APRIL', '四月');
+define('_CAL_MAY', '五月');
+define('_CAL_JUNE', '六月');
+define('_CAL_JULY', '七月');
+define('_CAL_AUGUST', '八月');
+define('_CAL_SEPTEMBER', '九月');
+define('_CAL_OCTOBER', '十月');
+define('_CAL_NOVEMBER', '十一月');
+define('_CAL_DECEMBER', '十二月');
+// 其他
+define('_CAL_TGL1STD', '切換每週第一天');
+define('_CAL_PREVYR', '上一年 (按住顯示選單)');
+define('_CAL_PREVMNTH', '上個月 (按住顯示選單)');
+define('_CAL_GOTODAY', '前往今天');
+define('_CAL_NXTMNTH', '下個月 (按住顯示選單)');
+define('_CAL_NEXTYR', '下一年 (按住顯示選單)');
+define('_CAL_SELDATE', '選擇日期');
+define('_CAL_DRAGMOVE', '拖曳以移動');
+define('_CAL_TODAY', '今天');
+define('_CAL_DISPM1ST', '顯示星期一為第一天');
+define('_CAL_DISPS1ST', '顯示星期日為第一天');

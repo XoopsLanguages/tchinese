@@ -1,11 +1,11 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-A new user {USERNAME} ({USEREMAIL}) has just created a profile at {SITENAME}.
-Clicking on the link below will activate the profile of this user:
+一位新用戶 {USERNAME} ({USEREMAIL}) 剛在 {SITENAME} 創建了檔案。
+點擊以下連結將啟用該用戶的檔案：
 
 {USERACTLINK}
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+網站管理員
 {ADMINMAIL}

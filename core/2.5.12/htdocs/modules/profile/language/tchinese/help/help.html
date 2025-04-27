@@ -1,62 +1,62 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Back to the Administration of Profile"> Profile <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the Administration of Profile"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">DESCRIPTION</h4>
+    <h1 class="head">幫助： <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="返回 Profile 管理">Profile <img src="<{xoAdminIcons 'home.png'}>" alt="返回 Profile 管理"/></a></h1>
+    <!-- -----幫助內容 ---------- -->
+    <h4 class="odd">描述</h4>
 
-    <p class="even">The Profile module is for managing custom user profile fields.</p>
-    <h4 class="odd">INSTALL/UNINSTALL</h4>
+    <p class="even">Profile 模組用於管理自定義的用戶資料欄位。</p>
+    <h4 class="odd">安裝/卸載</h4>
 
-    <p>No special measures necessary, follow the standard installation process – extract the /profile folder into the ../modules directory. Install the module through Admin -> System Module -> Modules.</p>
+    <p>無需特別措施，請按照標準安裝過程進行 – 將 /profile 資料夾解壓至 ../modules 目錄中。通過管理界面安裝模組 -> 系統模組 -> 模組。</p>
 
-    <p>Detailed instructions on installing modules are available in the <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS Operations Manual</a> <br><br></p>
-    <h4 class="odd">OPERATING INSTRUCTIONS</h4>
+    <p>有關模組安裝的詳細說明，請參閱 <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS 操作手冊">XOOPS 操作手冊</a> <br><br></p>
+    <h4 class="odd">操作說明</h4>
 
-    <p class="even">To set up this module you need to:</p>
+    <p class="even">要設置此模組，您需要進行以下操作：</p>
     <ul>
-        <li>Configure your preferences for the module (see ‘Preferences’) and optionally the Profile block if you intend to use it (see ‘Blocks’).</li>
-        <li>Edit existing Categories or add new ones.</li>
-        <li>Edit existing Fields or add new ones. Here you can specify which fields will be visible in which category, and if they will be visible during user registration.</li>
-        <li>Define the order of Registration steps.</li>
-        <li>And finally, you can set permissions for individual fields - which ones are editable, which ones are searchable.<br><br></li>
+        <li>配置您的模組偏好設置（請參見「偏好設置」），如果您打算使用 Profile 區塊，則選擇性地配置區塊（請參見「區塊」）。</li>
+        <li>編輯現有的類別或新增類別。</li>
+        <li>編輯現有的欄位或新增欄位。在這裡，您可以指定哪些欄位會顯示在哪些類別中，並且這些欄位是否會在用戶註冊時顯示。</li>
+        <li>定義註冊步驟的順序。</li>
+        <li>最後，您可以設置每個欄位的權限 – 哪些欄位是可編輯的，哪些欄位是可搜尋的。<br><br></li>
     </ul>
-    <h4 class="odd">Anti-Spam measures</h4>
+    <h4 class="odd">防止垃圾郵件措施</h4>
 
-    <p class="even">To minimize spam registrations, do the following:</p>
+    <p class="even">為了減少垃圾註冊，請執行以下操作：</p>
 
     <ul>
-        <li> go to the Protector module in Admin, go to Preferences, and then at the bottom, at this option:
+        <li> 進入 Admin 中的 Protector 模組，進入偏好設置，然後在底部選擇此選項：
 
-            "Stop Forum Spam"
-            Checks POST data against spammers registered on www.stopforumspam.com database. <br>
-            Set it to "Ban the IP (no limit)"
+            "停止論壇垃圾郵件"
+            檢查 POST 數據是否與 www.stopforumspam.com 數據庫中的垃圾郵件發送者匹配。<br>
+            將其設置為 "封鎖 IP（無限制）"
         </li>
         <br>
 
-        <li> in /class/captcha/config.php, make sure that the mode is set as "text":<br><br>
+        <li> 在 /class/captcha/config.php 中，確保模式設置為 "text"：<br><br>
 
-    <span style="font-style: italic;">     return $config = array(<br>
-    'disabled' => false, // Disable CAPTCHA<br>
-    'mode' => 'text', // default mode, you can choose 'text', 'image', 'recaptcha'(requires api key)<br>
-    'name' => 'xoopscaptcha', // captcha name<br>
-    'skipmember' => true, // Skip CAPTCHA check for members<br>
-    'maxattempts' => 10, // Maximum attempts for each session<br>
+            <span style="font-style: italic;">     return $config = array(<br>
+    'disabled' => false, // 禁用 CAPTCHA<br>
+    'mode' => 'text', // 默認模式，您可以選擇 'text'，'image'，'recaptcha'（需要 API 密鑰）<br>
+    'name' => 'xoopscaptcha', // captcha 名稱<br>
+    'skipmember' => true, // 跳過會員 CAPTCHA 驗證<br>
+    'maxattempts' => 10, // 每個會話的最大嘗試次數<br>
     );</span></li>
         <br>
 
-        <li> In the Profile module, go to Admin and in the Basic step located at:<br>
+        <li> 在 Profile 模組中，進入 Admin，並在位於以下位置的基本步驟中：<br>
 
             /modules/profile/admin/step.php?id=1<br>
 
-            set the "Save after stop" to "No"
+            將 "停止後保存" 設置為 "否"
         </li>
         <br><br>
 
-        <li> In Profile Preferences, set the "Use Captcha after the second Registration step" Option to "Yes" (it is the default)</li>
+        <li> 在 Profile 偏好設置中，將 "在第二步註冊後使用 Captcha" 選項設置為 "是"（默認設置）</li>
         <br>
         <ul>
 
-            <h4 class="odd">TUTORIAL</h4>
+            <h4 class="odd">教學</h4>
 
-            <p class="even">Tutorial coming soon.<br></p>
-            <!-- -----Help Content ---------- -->
+            <p class="even">教學即將發布。<br></p>
+            <!-- -----幫助內容 ---------- -->
 </div>

@@ -1,12 +1,12 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-Your new profile at {SITENAME} has been activated by the administrator.
+你的新檔案在 {SITENAME} 已由管理員啟用。
 
-You can now login from the following URL with the password you have submitted at registration.
+你現在可以使用註冊時提交的密碼，從以下網址登入：
 
 {SITEURL}user.php
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+網站管理員
 {ADMINMAIL}

@@ -9,6 +9,6 @@
  * @package             xoopseditor
  */
 /*
- * Assocated with editor_registry.php
+ * 與 editor_registry.php 相關聯
  */
-define('_XOOPS_EDITOR_TEXTAREA', 'Plain Text');
+define('_XOOPS_EDITOR_TEXTAREA', '純文字');

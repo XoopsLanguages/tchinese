@@ -1,3 +1,1 @@
-For XOOPS library
-
-For security considerations, you are strongly advised to move this folder out of Document Root.
+考量到安全性，強烈建議您將此資料夾移出 Document Root 之外。

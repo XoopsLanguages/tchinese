@@ -1,75 +1,76 @@
 <div id="help-template" class="outer">
 
-    <h1 class="head">Help: Preferences</h1>
-    <h4 class="odd">Description</h4>
+    <h1 class="head">幫助：偏好設定</h1>
+    <h4 class="odd">描述</h4>
 
     <p class="even">
-        The preference panels are where you configure your site-wide preferences. It is worth taking the time to work through them as some settings can have a significant impact on the performance, security and ease of use of your site.
-    </p>
-    <h4 class="odd">General Settings</h4>
+        偏好設定面板是您配置網站全域設定的地方。花時間進行設定是值得的，因為有些設置會對網站的效能、安全性和使用便捷性產生重要影響。<br><br>
 
-    <p class="even">
-        These are the most important and most frequently accessed preferences. You will set the Site name and the Slogan for your Website. You'll also select the default Theme and Admin GUI. And if you need to work on your Website, you can close it for all users. You can also set Module-wide Cache
-        times.
-    </p>
+        - 清理快取資料夾<br>
+        - 清空會話表<br>
+        - 執行資料庫表的維護（分析、檢查、優化和修復）<br><br>
 
-    <h4 class="odd">Meta Tags and Footer</h4>
-
-    <p class="even">
-        Meta tags provide information about your information – they describe the nature of your website. Their main use is to help search engines and their robots to index your website correctly, i.e. to help the right people find it. The information you supply is included in the header of each web
-        page. It should represent the content of the site as a whole - the meta information is the same on every page, it currently cannot be customised for different modules or pages.<br><br>
-
-        Be aware that the major search engines use different strategies for indexing websites. They may place different weightings on meta tags or even ignore them completely. Careful use of meta information may help your website to gain better search engine rankings, and it is useful to seek
-        information on the indexing strategies of your dominant referrers (see your website logfile). This may help you to optimise your meta information or other aspects of your site design and content to improve your rankings. <br><br>
-
-        Try to be accurate and honest in providing meta information. Don’t try to ‘<em>manipulate</em>’ search engines to gain a better ranking – they may recognise this behaviour and your site may be downgraded or blacklisted from their index.
-
-        <br><br>The <strong>Meta Copyright</strong> and <strong>Footer</strong> fields both support two substitution tags to simplify maintenance.
-        <br>&nbsp;- <strong>{X_SITEURL}</strong> will be replaced by the full URL to your site's main page.
-        <br>&nbsp;- <strong>{X_YEAR}</strong> will be replaced by the current four digit year. It eliminates the need to update the upper copyright date each year.
+        您還可以對整個資料庫或個別資料表執行 "備份" 操作。
     </p>
 
-    <h4 class="odd">Word Censoring Options</h4>
+    <h4 class="odd">一般設定</h4>
 
     <p class="even">
-        XOOPS can automatically censor undesirable words that may be posted by visitors to your site and replace them with a generic, alternative term of your choice. The censorship function does consume some system resources and may slow your site somewhat. It is disabled by default.<br><br>
-
-        To implement censorship on your site select the ‘<em>enable</em>’ radio button. You need to enter a list of unwanted words in the ‘<em>words to censor</em>’ box, separating them with the pipe character. This function is case-insensitive. Enter a suitable replacement term in the ‘<em>replace
-            bad words with</em>’ box. The default is #OOPS#.
-
+        這些是最重要且最常被訪問的設定。您可以設置網站名稱和口號。您還可以選擇預設主題和管理界面。如果您需要暫時停止網站，您可以選擇將其關閉給所有用戶。您也可以設置模組的快取時間。
     </p>
 
-    <h4 class="odd">Search Options</h4>
+    <h4 class="odd">Meta 標籤和頁腳</h4>
 
     <p class="even">
-        The search facility is one of the most important tools for locating information in a portal website. The XOOPS search categorises results by module – records are identified as news items, downloads, links or other types as per the modules you have installed. <br><br>
+        Meta 標籤提供有關您網站的信息——它們描述網站的性質。它們的主要用途是幫助搜尋引擎及其爬蟲正確地索引您的網站，即幫助正確的讀者找到它。您提供的信息會被包含在每個網頁的頭部。它應該代表整個網站的內容——Meta 信息在每個頁面上都是一樣的，目前無法為不同的模組或頁面自定義。<br><br>
 
-        Global searches of all resources on your site are enabled by default. If you disable global searches this facility will no longer be available and the search block will become non-functional.
-        The default minimum keyword length for searches is five characters. Any terms that are shorter will be ignored. This is useful for controlling the precision of searches, though not much use for terms like “site map”. Short keywords tend to be more common, so they tend to return a greater
-        number of records, many of which may be irrelevant. Longer keywords tend to retrieve fewer records but with a higher degree of precision.<br><br>
+        請注意，不同的搜尋引擎對於網站的索引策略有所不同。他們可能會對 Meta 標籤給予不同的權重，甚至完全忽略它們。謹慎使用 Meta 信息可能有助於您的網站在搜尋引擎中獲得更好的排名，並且了解您主要參照來源的索引策略（查看網站日誌）也很有幫助。這將幫助您優化 Meta 信息或網站設計和內容的其他方面，從而提高排名。<br><br>
 
-        Searching is relatively expensive in computational terms and so excluding short terms will reduce the load on the server. However, bear in mind that sometimes it is useful to be able to search for a short term.
+        嘗試準確且誠實地提供 Meta 信息。不要試圖“<em>操控</em>”搜尋引擎來獲得更高排名——它們可能會識別到這種行為，並可能將您的網站降級或從索引中黑名單處理。<br><br>
 
+        <strong>Meta 版權</strong> 和 <strong>頁腳</strong> 欄位都支持兩個替代標籤以簡化維護。<br>
+        &nbsp;- <strong>{X_SITEURL}</strong> 會被替換為您網站主頁的完整 URL。<br>
+        &nbsp;- <strong>{X_YEAR}</strong> 會被替換為當前年份。這樣可以避免每年更新版權日期。
     </p>
 
-    <h4 class="odd">Email Setup</h4>
+    <h4 class="odd">詞彙過濾選項</h4>
 
     <p class="even">
-        This section of the control panel is used to configure your email for the system. It is recommended that you leave the Email Delivery Method on the default setting “PHP (mail)”. You do not need to fill in the Sendmail or SMTP fields unless you use an alternative email delivery option.
+        XOOPS 可以自動過濾網站訪客發表的令人不快的詞彙，並將其替換為您選擇的通用替代詞。過濾功能會消耗一些系統資源，可能會稍微降低網站效能。默認情況下它是禁用的。<br><br>
+
+        若要在您的網站上啟用過濾，選擇‘<em>啟用</em>’單選框。您需要在‘<em>要過濾的詞彙</em>’框中輸入不需要的詞彙，並用管道符號分隔它們。此功能不區分大小寫。在‘<em>用來替換不良詞彙的詞語</em>’框中輸入適當的替換詞。默認是 #OOPS#。
     </p>
 
-    <h4 class="odd">Authentication Options</h4>
+    <h4 class="odd">搜尋選項</h4>
 
     <p class="even">
-        Just leave it at Xoops Database and you can ignore all the other options in there.<br><br>
+        搜尋功能是定位門戶網站中信息的最重要工具之一。XOOPS 搜尋將結果按模組分類——記錄會被標識為新聞項目、下載項目、鏈接或其他類型，根據您安裝的模組。<br><br>
 
-        LDAP or Microsoft Active directory servers have been added for authentication as an alternate to the normal Xoops users. The reason is that in many company you already have a user database in ADS or LDAP, and they can use that to logon to XOOPS and don´t have to register yet another account.
+        預設情況下會啟用對您網站上所有資源的全域搜尋。如果您禁用全域搜尋，則此功能將不再可用，搜尋區塊將變為無效。<br><br>
+
+        搜尋的最小關鍵字長度預設為五個字符。任何更短的詞彙將被忽略。這有助於控制搜尋的精確度，雖然對像“網站地圖”這類詞彙沒有太大用途。較短的關鍵字通常更常見，因此返回的記錄數量較多，其中許多可能是不相關的。較長的關鍵字通常檢索到較少的記錄，但精確度較高。<br><br>
+
+        搜尋在計算上相對昂貴，因此排除短語將減少伺服器負擔。然而，請記住，有時能夠搜尋短詞還是很有用的。
     </p>
 
-    <h4 class="odd">System Module Settings</h4>
+    <h4 class="odd">電子郵件設置</h4>
 
     <p class="even">
-        Here you can activate/deactivate each of the System sections, as well as specify system-wide defaults, e.g. for number of displayed avatars or images per page. You can also select a default editor for blocks, comments, and for all modules.
+        控制面板的此部分用於配置您的系統電子郵件。建議您將電子郵件發送方法保留在默認設置 “PHP (mail)” 上。除非您使用替代的電子郵件發送選項，否則不需要填寫 Sendmail 或 SMTP 欄位。
+    </p>
+
+    <h4 class="odd">認證選項</h4>
+
+    <p class="even">
+        您可以將其保持為 Xoops 資料庫，並忽略那裡的其他選項。<br><br>
+
+        目前已經為認證添加了 LDAP 或 Microsoft Active Directory 伺服器作為 Xoops 用戶的替代選擇。原因是許多公司已經擁有 ADS 或 LDAP 用戶資料庫，他們可以使用該資料庫登錄 XOOPS，而不需要註冊另一個帳戶。
+    </p>
+
+    <h4 class="odd">系統模組設置</h4>
+
+    <p class="even">
+        在這裡，您可以啟用/停用每個系統區塊，並指定全域預設設置，例如每頁顯示的頭像數量或圖片數量。您還可以為區塊、評論以及所有模組選擇預設編輯器。
     </p>
 
 </div>

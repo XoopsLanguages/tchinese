@@ -1,13 +1,13 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-A web user from {IP} has just requested a new password for your profile at {SITENAME}.
-You can get your new password by clicking on the link below:
+來自 {IP} 的網頁用戶剛為您的 {SITENAME} 帳戶請求了新密碼。
+您可以通過點擊以下連結來獲取您的新密碼：
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+如果您沒有要求此操作，請不用擔心，只需刪除此電子郵件即可。
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+網站管理員
 {ADMINMAIL}

@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-A comment has been added to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+您所監控的 {X_MODULE} 模組中的 {X_ITEM_TYPE} "{X_ITEM_NAME}" 已新增了一條評論。
 
-You can view the comment here:
+您可以在這裡查看該評論：
 {X_COMMENT_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when comments are added to this {X_ITEM_TYPE}.
+您收到此訊息是因為您選擇在此 {X_ITEM_TYPE} 上新增評論時收到通知。
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+如果這是錯誤或您不希望再收到此類通知，請透過以下連結更新您的訂閱：
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+請勿回覆此訊息。
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+網站管理員
 {X_ADMINMAIL}

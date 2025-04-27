@@ -1,58 +1,57 @@
 <?php
 //
-define('_OXYGEN_SYSOPTIONS', 'System Options');
-define('_OXYGEN_INSTALLEDMODULES', 'Installed Modules');
-define('_OXYGEN_XOOPSTHEMES', 'XOOPS Themes');
-define('_OXYGEN_XOOPSMODULES', 'XOOPS Modules');
-define('_OXYGEN_INTERESTSITES', 'Links');
-define('_OXYGEN_LOCALSUPPORT', 'Local Support');
-define('_OXYGEN_NEWS', 'Xoops News');
-define('_OXYGEN_WEBSITE', 'Community Site');
+define('_OXYGEN_SYSOPTIONS', '系統選項');
+define('_OXYGEN_INSTALLEDMODULES', '已安裝的模組');
+define('_OXYGEN_XOOPSTHEMES', 'XOOPS 主題');
+define('_OXYGEN_XOOPSMODULES', 'XOOPS 模組');
+define('_OXYGEN_INTERESTSITES', '連結');
+define('_OXYGEN_LOCALSUPPORT', '本地支援');
+define('_OXYGEN_NEWS', 'XOOPS 新聞');
+define('_OXYGEN_WEBSITE', '社群網站');
 define('_OXYGEN_SOURCEFORGE', 'Sourceforge');
-define('_OXYGEN_VERSION', 'Version');
-define('_OXYGEN_VERSION_XOOPS', 'XOOPS Version');
-define('_OXYGEN_VERSION_PHP', 'PHP Version');
-define('_OXYGEN_VERSION_SMARTY', 'Smarty Version');
-define('_OXYGEN_VERSION_MYSQL', 'MySQL Version');
-define('_OXYGEN_Server_API', 'Server API');
-define('_OXYGEN_OS', 'OS');
-define('_OXYGEN_ABOUT', 'About XOOPS');
-define('_OXYGEN_ABOUT_TEXT', 'Read the <a href="https://xoops.org/modules/wfchannel/" rel="external">All about XOOPS</a> page for more details.');
-define('_OXYGEN_XOOPS_LINKS', 'XOOPS Links');
-define('_OXYGEN_XOOPSPROJECT', 'XOOPS Project');
-define('_OXYGEN_XOOPSCORE', 'XOOPS Core');
-define('_OXYGEN_XOOPSTHEME', 'XOOPS Themes');
-define('_OXYGEN_XOOPSWIKI', 'XOOPS Wiki');
-define('_OXYGEN_XOOPSBOOKS', 'XOOPS Books');
-define('_OXYGEN_NEWMODULE', 'New Modules');
-define('_OXYGEN_XOOPSFAQ', 'XOOPS FAQ');
-define('_OXYGEN_CODESVN', 'Code Repository');
-define('_OXYGEN_REPORTBUG', 'Report Bug');
-define('_OXYGEN_SITEPREF', 'Preferences');
-define('_OXYGEN_GENERAL', 'General Settings');
-define('_OXYGEN_USERSETTINGS', 'User Info Settings');
-define('_OXYGEN_METAFOOTER', 'Meta Tags and Footer');
-define('_OXYGEN_CENSOR', 'Word Censoring Options');
-define('_OXYGEN_SEARCH', 'Search Options');
-define('_OXYGEN_MAILER', 'Email Setup');
-define('_OXYGEN_AUTHENTICATION', 'Authentication Options');
-define('_OXYGEN_MODULESETTINGS', 'System Module Settings');
-//Add for styles name
-define('_OXYGEN_SILVER', 'Silver');
-define('_OXYGEN_DARK', 'Dark');
-define('_OXYGEN_ORANGE', 'Orange');
-//Add 10 des
-define('_OXYGEN_XOOPS_LICENSE', 'XOOPS License');
-define('_OXYGEN_RSS', 'RSS Feed');
-define('_OXYGEN_ADMINISTRATION', 'XOOPS Administration');
-define('_OXYGEN_UPTOP', 'Up Top');
-//Add help
-define('_OXYGEN_HELP_1', 'How can I create content with XOOPS?');
-define('_OXYGEN_HELP_DESC_1', 'To create content, you must first install a content module, like the <a href="https://github.com/XoopsModules25x/publisher" rel="external">Publisher</a> or the <a href="https://github.com/XoopsModules25x/news" rel="external">News</a> module. To learn more about XOOPS modules <a href="modules/system/help.php?mid=1&page=modulesadmin">click here</a>');
-define('_OXYGEN_HELP_2', 'What is the Block?');
-define('_OXYGEN_HELP_DESC_2', 'Blocks can provide additional/specific content from the installed modules. There can be and custom blocks which can contain text, JS Code, HTML formatted text, pictures, etc. The content in these blocks may be formatted individually or can inherit formatting from the Website. (<a href="modules/system/help.php?mid=1&page=blocksadmin">more ...</a>)');
-define('_OXYGEN_HELP_3', 'How I can find more help?');
-define('_OXYGEN_HELP_DESC_3', 'If you need more help and information to using XOOPS you can use <a href="modules/system/help.php">Help pages </a> in system module or use <a href="https://xoops.org/modules/xoopspartners/" rel="external">XOOPS Local support sites </a>');
-
+define('_OXYGEN_VERSION', '版本');
+define('_OXYGEN_VERSION_XOOPS', 'XOOPS 版本');
+define('_OXYGEN_VERSION_PHP', 'PHP 版本');
+define('_OXYGEN_VERSION_SMARTY', 'Smarty 版本');
+define('_OXYGEN_VERSION_MYSQL', 'MySQL 版本');
+define('_OXYGEN_Server_API', '伺服器 API');
+define('_OXYGEN_OS', '作業系統');
+define('_OXYGEN_ABOUT', '關於 XOOPS');
+define('_OXYGEN_ABOUT_TEXT', '閱讀 <a href="https://xoops.org/modules/wfchannel/" rel="external">關於 XOOPS 的所有資訊</a> 頁面以了解更多詳情。');
+define('_OXYGEN_XOOPS_LINKS', 'XOOPS 連結');
+define('_OXYGEN_XOOPSPROJECT', 'XOOPS 專案');
+define('_OXYGEN_XOOPSCORE', 'XOOPS 核心');
+define('_OXYGEN_XOOPSTHEME', 'XOOPS 主題');
+define('_OXYGEN_XOOPSWIKI', 'XOOPS 維基');
+define('_OXYGEN_XOOPSBOOKS', 'XOOPS 書籍');
+define('_OXYGEN_NEWMODULE', '新模組');
+define('_OXYGEN_XOOPSFAQ', 'XOOPS 常見問題');
+define('_OXYGEN_CODESVN', '程式碼儲存庫');
+define('_OXYGEN_REPORTBUG', '報告錯誤');
+define('_OXYGEN_SITEPREF', '偏好設定');
+define('_OXYGEN_GENERAL', '一般設定');
+define('_OXYGEN_USERSETTINGS', '使用者資訊設定');
+define('_OXYGEN_METAFOOTER', 'Meta 標籤與頁尾');
+define('_OXYGEN_CENSOR', '文字審查選項');
+define('_OXYGEN_SEARCH', '搜尋選項');
+define('_OXYGEN_MAILER', '電子郵件設定');
+define('_OXYGEN_AUTHENTICATION', '認證選項');
+define('_OXYGEN_MODULESETTINGS', '系統模組設定');
+// 新增樣式名稱
+define('_OXYGEN_SILVER', '銀色');
+define('_OXYGEN_DARK', '深色');
+define('_OXYGEN_ORANGE', '橙色');
+// 新增 10 個描述
+define('_OXYGEN_XOOPS_LICENSE', 'XOOPS 授權');
+define('_OXYGEN_RSS', 'RSS 訂閱');
+define('_OXYGEN_ADMINISTRATION', 'XOOPS 管理');
+define('_OXYGEN_UPTOP', '回到頂部');
+// 新增說明
+define('_OXYGEN_HELP_1', '如何使用 XOOPS 創建內容？');
+define('_OXYGEN_HELP_DESC_1', '要創建內容，您必須先安裝一個內容模組，例如 <a href="https://github.com/XoopsModules25x/publisher" rel="external">Publisher</a> 或 <a href="https://github.com/XoopsModules25x/news" rel="external">News</a> 模組。要了解更多關於 XOOPS 模組的資訊，請<a href="modules/system/help.php?mid=1&page=modulesadmin">點擊這裡</a>');
+define('_OXYGEN_HELP_2', '什麼是區塊？');
+define('_OXYGEN_HELP_DESC_2', '區塊可以提供來自已安裝模組的額外/特定內容。可以有自訂區塊，這些區塊可以包含文字、JS 程式碼、HTML 格式的文字、圖片等。這些區塊中的內容可以個別格式化，或者可以繼承網站的格式化。（<a href="modules/system/help.php?mid=1&page=blocksadmin">更多...</a>）');
+define('_OXYGEN_HELP_3', '我如何找到更多幫助？');
+define('_OXYGEN_HELP_DESC_3', '如果您需要更多使用 XOOPS 的幫助和資訊，可以使用系統模組中的<a href="modules/system/help.php">說明頁面</a>，或者使用<a href="https://xoops.org/modules/xoopspartners/" rel="external">XOOPS 本地支援網站</a>');
 //2.5.12
-define('_OXYGEN_COMPOSER_PACKAGES', 'Composer Packages');
+define('_OXYGEN_COMPOSER_PACKAGES', 'Composer 套件');

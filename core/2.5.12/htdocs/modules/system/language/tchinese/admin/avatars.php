@@ -5,27 +5,27 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-// Navigation
-define('_AM_SYSTEM_AVATAR_MANAGER', 'Avatars Management');
-define('_AM_SYSTEM_AVATAR_MAIN', 'Main');
-define('_AM_SYSTEM_AVATAR_SYSTEM', 'System Avatars');
-define('_AM_SYSTEM_AVATAR_CUSTOM', 'Custom Avatars');
-define('_AM_SYSTEM_AVATAR_ADD', 'Add Avatar');
-define('_AM_SYSTEM_AVATAR_EDIT', 'Edit Avatar');
-define('_AM_SYSTEM_AVATAR_DELETE', 'Delete Avatar');
-// Main
-define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', 'Multi uploads');
-// Infos
-define('_AM_SYSTEM_AVATAR_ERROR', 'Errors');
-define('_AM_SYSTEM_AVATAR_USERS', 'Users using this avatar');
-define('_AM_SYSTEM_AVATAR_USE_FILE', 'Choose files in: %s');
-define('_AM_SYSTEM_AVATAR_UPLOAD', 'Upload:');
-// Messages
-define('_AM_SYSTEM_AVATAR_FAILDEL', 'Failed deleting avatar %s from the database');
-define('_AM_SYSTEM_AVATAR_SUREDEL', 'Are you sure to delete this avatar image?');
-// Tips
+// 導覽
+define('_AM_SYSTEM_AVATAR_MANAGER', '頭像管理');
+define('_AM_SYSTEM_AVATAR_MAIN', '主要');
+define('_AM_SYSTEM_AVATAR_SYSTEM', '系統頭像');
+define('_AM_SYSTEM_AVATAR_CUSTOM', '自訂頭像');
+define('_AM_SYSTEM_AVATAR_ADD', '新增頭像');
+define('_AM_SYSTEM_AVATAR_EDIT', '編輯頭像');
+define('_AM_SYSTEM_AVATAR_DELETE', '刪除頭像');
+// 主要
+define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', '多重上傳');
+// 資訊
+define('_AM_SYSTEM_AVATAR_ERROR', '錯誤');
+define('_AM_SYSTEM_AVATAR_USERS', '使用此頭像的使用者');
+define('_AM_SYSTEM_AVATAR_USE_FILE', '選擇檔案於：%s');
+define('_AM_SYSTEM_AVATAR_UPLOAD', '上傳：');
+// 訊息
+define('_AM_SYSTEM_AVATAR_FAILDEL', '無法從資料庫中刪除頭像 %s');
+define('_AM_SYSTEM_AVATAR_SUREDEL', '您確定要刪除此頭像圖片嗎？');
+// 提示
 define('_AM_SYSTEM_AVATAR_TIPS', "
 <ul id='newsticker' class='newsticker'>
-<li>Manage all System or Custom avatars</li>
-<li>Site members can optionally create their own online personality called avatars.<br>This option can be turned off from System User preferences.</li>
+<li>管理所有系統或自訂頭像</li>
+<li>網站成員可以選擇創建自己的線上形象，稱為頭像。<br>此選項可從系統使用者偏好設定中關閉。</li>
 </ul>");

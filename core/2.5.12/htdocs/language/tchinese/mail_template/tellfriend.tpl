@@ -1,11 +1,11 @@
-Hello {FRIEND_NAME},
+你好 {FRIEND_NAME}，
 
-Your friend {YOUR_NAME} liked our site and wanted to show it to you.
+您的朋友 {YOUR_NAME} 喜歡我們的網站並想與您分享。
 
-Site Name: {SITENAME}
-Site URL:  {SITEURL}
+網站名稱：{SITENAME}
+網站網址：{SITEURL}
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+網站管理員
 {ADMINMAIL}

@@ -1,15 +1,15 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-A web user from {IP} has just requested a new password.
-Here are your login details at {SITENAME}.
+來自 {IP} 的網頁用戶剛請求了新密碼。
+以下是您在 {SITENAME} 的登入詳細資訊。
 
-Username: {X_UNAME}
-New Password: {NEWPWD}
+用戶名：{X_UNAME}
+新密碼：{NEWPWD}
 
-You can change it after you login at {SITEURL}user.php.
-If you didn't ask for this, don't worry. You are seeing this message, not 'them'. If this was an error, we are really sorry but please login with your new password.
+您可以在登入後於 {SITEURL}user.php 更改您的密碼。
+如果您沒有要求此操作，請不用擔心。您看到這封訊息，而不是「他們」。如果這是錯誤，我們非常抱歉，但請使用您的新密碼登入。
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+網站管理員
 {ADMINMAIL}

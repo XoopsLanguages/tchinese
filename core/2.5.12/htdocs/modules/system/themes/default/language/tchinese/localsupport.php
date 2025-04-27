@@ -3,7 +3,7 @@
 
 $menu = [];
 
-// sample for English  support
+// 範例：英文支援
 /*
 $menu[] = array(
     'link'      => 'https://xoops.org',

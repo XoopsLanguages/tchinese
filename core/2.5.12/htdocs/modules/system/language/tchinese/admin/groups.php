@@ -5,29 +5,30 @@
 // Translator: XOOPS Translation Team
 // %%%%%%    Admin Module Name  AdminGroup     %%%%%
 //Nav
-define('_AM_SYSTEM_GROUPS_NAV_MANAGER', 'Groups Manager');
-define('_AM_SYSTEM_GROUPS_NAV_LIST', 'Groups list');
-define('_AM_SYSTEM_GROUPS_NAV_ADD', 'Add a new group');
-define('_AM_SYSTEM_GROUPS_NAV_EDIT', 'Edit group');
-define('_AM_SYSTEM_GROUPS_NAV_DELETE', 'Delete group');
-// Tips
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_1', '<ul><li>Create a new group with their own permissions.</li><li>Edit group for change permissions.</li></ul>');
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_2', '<ul><li>Change or create permission for this group, all modification will affect users of this group.</li></ul>');
-//Infos
-define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', 'Module Access rights');
-define('_AM_SYSTEM_GROUPS_ACTION', 'Action');
-define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'Module Admin rights');
-define('_AM_SYSTEM_GROUPS_ADD', 'Add a new group');
-define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', 'Block Access Rights');
-define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', 'Custom Block');
-define('_AM_SYSTEM_GROUPS_DELETE', 'Delete group');
-define('_AM_SYSTEM_GROUPS_DESCRIPTION', 'Group Description');
-define('_AM_SYSTEM_GROUPS_EDIT', 'Edit group');
-define('_AM_SYSTEM_GROUPS_ERROR_DELETE', 'You can not remove this group');
+// 導覽
+define('_AM_SYSTEM_GROUPS_NAV_MANAGER', '群組管理');
+define('_AM_SYSTEM_GROUPS_NAV_LIST', '群組列表');
+define('_AM_SYSTEM_GROUPS_NAV_ADD', '新增群組');
+define('_AM_SYSTEM_GROUPS_NAV_EDIT', '編輯群組');
+define('_AM_SYSTEM_GROUPS_NAV_DELETE', '刪除群組');
+// 提示
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_1', '<ul><li>創建一個具有專屬權限的新群組。</li><li>編輯群組以更改權限。</li></ul>');
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_2', '<ul><li>更改或創建此群組的權限，所有修改將影響此群組的使用者。</li></ul>');
+// 資訊
+define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', '模組存取權限');
+define('_AM_SYSTEM_GROUPS_ACTION', '操作');
+define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', '模組管理權限');
+define('_AM_SYSTEM_GROUPS_ADD', '新增群組');
+define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', '區塊存取權限');
+define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', '自訂區塊');
+define('_AM_SYSTEM_GROUPS_DELETE', '刪除群組');
+define('_AM_SYSTEM_GROUPS_DESCRIPTION', '群組描述');
+define('_AM_SYSTEM_GROUPS_EDIT', '編輯群組');
+define('_AM_SYSTEM_GROUPS_ERROR_DELETE', '您無法移除此群組');
 define('_AM_SYSTEM_GROUPS_ID', 'ID');
-define('_AM_SYSTEM_GROUPS_NAME', 'Group Name');
-define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS', 'Number users by group');
-define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS', '%s user(s)');
-define('_AM_SYSTEM_GROUPS_SUREDEL', 'Are you sure you want to delete this group?');
-define('_AM_SYSTEM_GROUPS_SYSTEMRIGHTS', 'System Admin rights');
+define('_AM_SYSTEM_GROUPS_NAME', '群組名稱');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS', '按群組分類的使用者數量');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS', '%s 位使用者');
+define('_AM_SYSTEM_GROUPS_SUREDEL', '您確定要刪除此群組嗎？');
+define('_AM_SYSTEM_GROUPS_SYSTEMRIGHTS', '系統管理權限');
 define('_AM_SYSTEM_GROUPS_DBUPDATED', _AM_SYSTEM_DBUPDATED);

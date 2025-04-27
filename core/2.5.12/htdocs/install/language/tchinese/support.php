@@ -7,17 +7,17 @@
 
 $supports = [];
 
-// Support site for English
+// 英文支援網站
 $supports['english'] = [
     'url' => 'https://xoops.org/',
-    'title' => 'English support',
+    'title' => '英文支援',
 ];
 
-// Add extra support sites, use corresponding language folder name as key, for instance:
+// 新增其他支援網站，使用對應的語言資料夾名稱作為鍵值，例如：
 /*
-$supports["french"] = array(
-    "url"   => "https://www.frxoops.org/",
-    "title" => "Support francophone"
+$supports["zh-tw"] = array(
+    "url"   => "https://www.xoops.tw/",
+    "title" => "繁體中文支援"
 );
 */
 

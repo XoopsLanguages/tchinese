@@ -1,21 +1,21 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-Thank you for registering as a member of {SITENAME}. As a registered member your can:
-- Send private messages among members
-- Participate in discussion boards
-- Get the latest news
-- Submit content
-- Much, much more....
+感謝您註冊成為 {SITENAME} 的會員。作為註冊會員，您可以：
+- 成員之間發送私人訊息
+- 參與討論區
+- 獲取最新消息
+- 提交內容
+- 還有更多更多...
 
-The email address ({X_UEMAIL}) has been used to create a user profile for you.
+電子郵件地址 ({X_UEMAIL}) 已被用來為您創建一個用戶檔案。
 
-To become a member of {SITENAME}, please confirm your
-request by clicking on the link below:
+為了成為 {SITENAME} 的會員，請通過點擊以下連結來確認您的註冊請求：
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+此致
+最誠摯的問候
 {SITENAME}
-({SITEURL}) 
+({SITEURL})
 {ADMINMAIL}

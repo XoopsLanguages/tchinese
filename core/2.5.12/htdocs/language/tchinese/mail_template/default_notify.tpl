@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+您所監控的 {X_MODULE} 模組中的 {X_ITEM_TYPE} "{X_ITEM_NAME}" 發生了事件 {X_NOTIFY_EVENT}。
 
-You can view the {X_ITEM_TYPE} here:
+您可以在這裡查看該 {X_ITEM_TYPE}：
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+您已訂閱接收此類通知。
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+如果這是錯誤或您不希望再收到此類通知，請透過以下連結更新您的訂閱：
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+請勿回覆此訊息。
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+網站管理員
 {X_ADMINMAIL}

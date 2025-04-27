@@ -9,6 +9,6 @@
  * @package             xoopseditor
  */
 /**
- * Assocated with editor_registry.php
+ * 與 editor_registry.php 相關聯
  */
-define('_XOOPS_EDITOR_DHTMLTEXTAREA', 'DHTML Form with xCode');
+define('_XOOPS_EDITOR_DHTMLTEXTAREA', '具有 xCode 的 DHTML 表單');

@@ -20,27 +20,27 @@
  */
 defined('XOOPS_ROOT_PATH') || exit('Restricted access');
 /**
- * Localize the mail functions
+ * 本地化郵件功能
  *
- * The English localization is solely for demonstration
+ * 英文本地化僅供示範
  */
-// Do not change the class name
+// 請勿更改類別名稱
 class XoopsMailerLocal extends XoopsMailer
 {
     /**
-     * Constructor
+     * 建構子
      */
     public function __construct()
     {
         parent::__construct();
-        // It is supposed no need to change the charset
+        // 假設不需要更改字元集
         $this->charSet = strtolower(_CHARSET);
-        // You MUST specify the language code value so that the file exists: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["your-language-code"].php
-        $this->multimailer->setLanguage('en');
+        // 您必須指定語言代碼值，以便檔案存在：XOOPS_ROOT_PATH/class/mail/phpmailer/language/lang-["您的語言代碼"].php
+        $this->multimailer->setLanguage('zh-tw');
     }
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding FromName
+     * 建議多位元組語言為 FromName 進行適當的編碼
      *
      * @param $text
      *
@@ -48,14 +48,14 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeFromName($text)
     {
-        // Activate the following line if needed
+        // 如果需要，請啟用以下這行
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
 
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding Subject
+     * 建議多位元組語言為 Subject 進行適當的編碼
      *
      * @param $text
      *
@@ -63,7 +63,7 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeSubject($text)
     {
-        // Activate the following line if needed
+        // 如果需要，請啟用以下這行
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }

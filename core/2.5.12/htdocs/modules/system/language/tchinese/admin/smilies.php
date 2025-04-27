@@ -6,28 +6,28 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_SMILIES_NAV_MANAGER', 'Smilies Manager');
-define('_AM_SYSTEM_SMILIES_NAV_LIST', 'Smilies list');
-define('_AM_SYSTEM_SMILIES_NAV_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_NAV_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_NAV_DELETE', 'Delete smilie');
-// Tips
-define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>Add, update or delete smilies</li></ul>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>Max uploaded files size: %s ko</li></ul>');
-//Infos
-define('_AM_SYSTEM_SMILIES_ACTION', 'Action');
-define('_AM_SYSTEM_SMILIES_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_CODE', 'Code');
-define('_AM_SYSTEM_SMILIES_DELETE', 'Delete smilie');
-define('_AM_SYSTEM_SMILIES_DESCRIPTION', 'Description');
-define('_AM_SYSTEM_SMILIES_DISPLAY', 'Display in form');
-define('_AM_SYSTEM_SMILIES_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_FILE', 'Smilie file');
-define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_SMILIES_OFF', 'Display in the form ');
-define('_AM_SYSTEM_SMILIES_ON', 'Does not display in the form');
-define('_AM_SYSTEM_SMILIES_SMILIE', 'Smilie');
-define('_AM_SYSTEM_SMILIES_SUREDEL', 'Are you sure you want to delete this smilie?');
-define('_AM_SYSTEM_SMILIES_UPLOADS', 'Upload');
+define('_AM_SYSTEM_SMILIES_NAV_MANAGER', '表情符號管理');
+define('_AM_SYSTEM_SMILIES_NAV_LIST', '表情符號列表');
+define('_AM_SYSTEM_SMILIES_NAV_ADD', '新增表情符號');
+define('_AM_SYSTEM_SMILIES_NAV_EDIT', '編輯表情符號');
+define('_AM_SYSTEM_SMILIES_NAV_DELETE', '刪除表情符號');
+// 提示
+define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>新增、更新或刪除表情符號</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>授權的 MIME 類型：%s</li>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>最大上傳檔案大小：%s ko</li></ul>');
+// 資訊
+define('_AM_SYSTEM_SMILIES_ACTION', '操作');
+define('_AM_SYSTEM_SMILIES_ADD', '新增表情符號');
+define('_AM_SYSTEM_SMILIES_CODE', '代碼');
+define('_AM_SYSTEM_SMILIES_DELETE', '刪除表情符號');
+define('_AM_SYSTEM_SMILIES_DESCRIPTION', '描述');
+define('_AM_SYSTEM_SMILIES_DISPLAY', '在表單中顯示');
+define('_AM_SYSTEM_SMILIES_EDIT', '編輯表情符號');
+define('_AM_SYSTEM_SMILIES_FILE', '表情符號檔案');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH', '檔案存在於：%s');
+define('_AM_SYSTEM_SMILIES_OFF', '在表單中顯示');
+define('_AM_SYSTEM_SMILIES_ON', '不在表單中顯示');
+define('_AM_SYSTEM_SMILIES_SMILIE', '表情符號');
+define('_AM_SYSTEM_SMILIES_SUREDEL', '您確定要刪除此表情符號嗎？');
+define('_AM_SYSTEM_SMILIES_UPLOADS', '上傳');
 define('_AM_SYSTEM_SMILIES_SAVE', _AM_SYSTEM_DBUPDATED);

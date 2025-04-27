@@ -1,15 +1,14 @@
-Hello {X_UNAME},
+你好 {X_UNAME}，
 
-
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+您已成功在 {X_SITENAME} 註冊，使用的用戶名是 "{X_UNAME}"。
+歡迎您訪問 {X_SITENAME}：{X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+如果您在使用 "{X_SITENAME}" 時遇到任何問題或不便，請隨時聯繫我們：{X_ADMINMAIL}
 
-Best regards,
+最誠摯的問候，
 
 -----------
-{X_SITENAME}: {X_SITEURL} 
-webmaster: {X_ADMINMAIL}
+{X_SITENAME}: {X_SITEURL}
+網站管理員: {X_ADMINMAIL}

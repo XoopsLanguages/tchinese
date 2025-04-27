@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.xoopsquote',{
-    quote_desc:"Insert quote"
+tinyMCE.addI18n('zh-tw.xoopsquote',{
+    quote_desc:"插入引言"
 });
