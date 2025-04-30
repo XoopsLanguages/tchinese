@@ -18,7 +18,7 @@ $content = '
 <h3>需求</h3>
 <ul>
     <li>WWW 伺服器 (<a href="https://www.apache.org/" rel="external">Apache</a>、<a href="https://www.nginx.com/" rel="external">NGINX</a>、IIS 等)</li>
-    <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 或更高版本，推薦使用 7.3+ 版本</li>
+    <li><a href="https://www.php.net/" rel="external">PHP</a> 7.4 或更高版本，推薦使用 7.3+ 版本</li>
     <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.5 或更高版本，推薦使用 5.7+ 版本</li>
 </ul>
 <h3>安裝前準備</h3>
