@@ -1,0 +1,662 @@
+語言差異
+=====================
+
+以下是各個版本之間的語言差異。
+
+================================
+2025/03/30：版本 2.7.0-Betas（之前發佈為 2.5.12-Betas）
+================================
+/htdocs/modules/system/language/english/admin.php
+- 新增了定義（'_AM_SYSTEM_MENUS'，'選單'）；
+- 添加了定义（'_AM_SYSTEM_MENUS_DESC'，'管理站点导航菜单'）；
+
+/htdocs/modules/system/language/english/modinfo.php
+- 新增了定義（'_MI_SYSTEM_MENUS_ACTIVE'，'啟用選單系統'）；
+- 新增了define('_MI_SYSTEM_MENUS_ACTIVE_DESC', '啟用內建功能表管理系統進行網站導覽');
+
+/htdocs/modules/system/language/english/admin/menus.php（新文件）
+- 新增了定義（'_AM_SYSTEM_MENUS_NAV_MAIN'，'選單管理器'）；
+- 新增了定義('_AM_SYSTEM_MENUS_NAV_BACK', '返回選單清單');
+- 新增了定義（'_AM_SYSTEM_MENUS_NAV_CATEGORY'，'類別視圖'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_NAV_TIPS'，'<strong>提示：</strong><ul>...'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ACTIVE'，'活動'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ACTIVE_YES'，'啟用'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ACTIVE_NO'，'禁用'）；
+- 新增了定義('_AM_SYSTEM_MENUS_SAVED', '儲存成功');
+- 新增了define('_AM_SYSTEM_MENUS_DELETED', '刪除成功');
+- 新增了定義('_AM_SYSTEM_MENUS_ORDER_SAVED', '訂單已儲存');
+- 新增了定義（'_AM_SYSTEM_MENUS_LISTCAT'，'列出類別'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_LISTITEM'，'列出項目'）；
+- 新增定義('_AM_SYSTEM_MENUS_ADDCAT', '新增類別');
+- 新增了定義（'_AM_SYSTEM_MENUS_EDITCAT'，'編輯類別'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_DELCAT'，'刪除類別'）；
+- 新增了定義('_AM_SYSTEM_MENUS_CATTITLE', '類別標題');
+- 新增了define('_AM_SYSTEM_MENUS_CATTITLE_DESC', '此處可以使用語言常數名稱（例如MENUS_HOME），因此標籤是可翻譯的。');
+- 新增了定義（'_AM_SYSTEM_MENUS_CATPREFIX'，'前綴（HTML）'）；
+- 新增了定義('_AM_SYSTEM_MENUS_CATPREFIX_DESC', '在類別標題之前顯示的可選標記，例如 Font Awesome 圖示。');
+- 新增了定義（'_AM_SYSTEM_MENUS_CATSUFFIX'，'後綴（HTML）'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_CATSUFFIX_DESC'，'類別標題後顯示的可選標記。'）；
+- 新增了定義('_AM_SYSTEM_MENUS_CATURL', 'URL');
+- 添加了define('_AM_SYSTEM_MENUS_CATURL_DESC', '類別本身的鏈接，例如“index.php”或絕對URL。');
+- 新增了定義（'_AM_SYSTEM_MENUS_CATTARGET'，'連結目標'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_CATPOSITION'，'位置'）；
+- 新增了define('_AM_SYSTEM_MENUS_DELCAT_CONFIRM', '您確定要刪除類別「%s」及其所有項目嗎？');
+- 新增定義('_AM_SYSTEM_MENUS_ADDITEM', '新增項目');
+- 新增了定義（'_AM_SYSTEM_MENUS_EDITITEM'，'編輯項目'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_DELITEM'，'刪除項目'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMTITLE'，'項目標題'）；
+- 新增了define('_AM_SYSTEM_MENUS_ITEMTITLE_DESC', '這裡可以使用語言常數名稱，因此標籤是可翻譯的。');
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMPREFIX'，'前綴（HTML）'）；
+- 新增了定義('_AM_SYSTEM_MENUS_ITEMPREFIX_DESC', '在專案標題之前顯示的選用標記，例如 Font Awesome 圖示。');
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMSUFFIX'，'後綴（HTML）'）；
+- 新增了定義('_AM_SYSTEM_MENUS_ITEMSUFFIX_DESC', '專案標題後顯示的選用標記。支援 <{xoInboxCount}> 佔位符。');
+- 新增了定義('_AM_SYSTEM_MENUS_ITEMURL', 'URL');
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMTARGET'，'連結目標'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMPOSITION'，'位置'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMPARENT'，'父項'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ITEMCATEGORY'，'類別'）；
+- 新增了define('_AM_SYSTEM_MENUS_DELITEM_CONFIRM', '您確定要刪除項目「%s」及其子項目嗎？');
+- 新增了定義（'_AM_SYSTEM_MENUS_TARGET_SELF'，'同一視窗'）；
+- 新增了定義('_AM_SYSTEM_MENUS_TARGET_BLANK', '新視窗');
+- 新增了define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY', '可以看到此類別的群組');
+- 新增了定義（'_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY_DESC'，'使用者必須擁有類別存取權才能使其任何項目可見。'）；
+- 新增了define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM', '可以看到該項目的群組');
+- 新增了define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM_DESC', '在父類別權限之後檢查項目權限。');
+- 添加了定义（'_AM_SYSTEM_MENUS_ERROR_CATNOTFOUND'，'找不到类别'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_CATPROTECTED'，'無法刪除受保護的類別'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_CATINACTIVE'，'無法啟動：類別處於非活動狀態'）；
+- 添加了定义（'_AM_SYSTEM_MENUS_ERROR_ITEMNOTFOUND'，'找不到项目'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_ITEMPROTECTED'，'無法刪除受保護的項目'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_ITEMPARENT'，'選擇的父項無效'）；
+- 新增了define('_AM_SYSTEM_MENUS_ERROR_ITEMCYCLE', '無法設定父級：它將建立循環引用');
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_ITEMDEPTH'，'超出最大嵌套深度（3層）'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_PARENTINACTIVE'，'無法啟動：父項處於非活動狀態'）；
+- 新增了定義（'_AM_SYSTEM_MENUS_ERROR_NOITEMS'，'此類別中沒有子選單項目。'）；
+- 新增了define('_AM_SYSTEM_MENUS_ERROR_ITEMEDIT', '編輯前啟用此項目');
+- 新增了define('_AM_SYSTEM_MENUS_ERROR_ITEMDISABLE', '在刪除該項目之前啟用該項目');
+- 新增了定義('MENUS_HOME', 'Home');
+- 新增了定義（'MENUS_ADMIN'，'管理'）；
+- 新增了定義（'MENUS_ACCOUNT'，'帳戶'）；
+- 新增了定義('MENUS_ACCOUNT_EDIT', '編輯帳戶');
+- 新增了定義（'MENUS_ACCOUNT_LOGIN'，'登入'）；
+- 新增了定義（'MENUS_ACCOUNT_LOGOUT'，'註銷'）；
+- 新增了定義('MENUS_ACCOUNT_REGISTER', '註冊');
+- 新增了定義('MENUS_ACCOUNT_MESSAGES', '訊息');
+- 新增了定義（'MENUS_ACCOUNT_NOTIFICATIONS'，'通知'）；
+- 新增了定義('MENUS_ACCOUNT_TOOLBAR', '工具列');
+
+/htdocs/modules/system/constants.php
+- 新增了定義('XOOPS_SYSTEM_MENUS', 19);
+
+/htdocs/modules/system/language/english/blocks.php
+-added Define('_MB_SYSTEM_WAITING_CONTENT_DEPRECATED', "自 XOOPS 2.5.11 起不建議使用區塊'等待內容'，請使用等待模組");
+
+/htdocs/install/language/english/welcome.php
+- 更新了 PHP 和 MySQL 版本
+
+/htdocs/modules/pm/language/english/main.php
+- 更新了define('_PM_EMAIL_DESC', '親愛的%s，這是一條從您的帳戶 ' 傳輸的消息。$GLOBALS['xoopsConfig']['sitename']);
+- 更新了define('_PM_EMAIL_DESC', '親愛的%s，這是一條從您的帳戶 ' 傳輸的消息。$GLOBALS['xoopsConfig']['sitename']);
+
+/htdocs/language/english/user.php
+- 更新了define('_US_SORRYNOTFOUND', '抱歉，沒有找到對應的使用者資訊。');
+- 更新了define('_US_SORRYNOTFOUND', '如果帳戶與提供的資訊匹配，我們將處理您的請求。如果您很快沒有收到電子郵件，請檢查您的垃圾郵件資料夾或聯絡網站管理員。');
+
+- 更新了定義('_US_PWDMAILED', '已發送 %s 的密碼。');
+- 更新了define('_US_PWDMAILED', '如果此電子郵件存在帳戶，您將收到密碼重設說明。如果需要，請檢查您的垃圾郵件資料夾或聯絡網站管理員。');
+
+- 更新的定義（'_US_CONFMAIL'，'已發送 %s 的確認電子郵件。'）；
+- 更新了define('_US_CONFMAIL', '如果此電子郵件存在帳戶，您將收到密碼重設說明。如果需要，請檢查您的垃圾郵件資料夾或聯絡網站管理員。');
+
+/htdocs/class/xoopseditor/tinymce5/language/english.php
+- 重新命名 _XOOPS_EDITOR_TINYMCE_LANGUAGE5 為 _XOOPS_EDITOR_TINYMCE5_LANGUAGE
+
+/htdocs/modules/system/themes/transition/language/english/admin.php
+- 已將 _OXYGEN_Server_API 重新命名為 _OXYGEN_SERVER_API
+
+/htdocs/modules/system/language/english/admin/preferences.php。
+- 新增了定義('_MD_AM_SENDMAIL_NOT_FOUND', '未找到 Sendmail 二進位檔案。請檢查您的伺服器設定。');
+- 新增了定義（'_MD_AM_SENDMAIL_HELP_MISSING_BIN'，'未偵測到有效的 sendmail 相容於二進位檔案。安裝 MTA（例如 Postfix、msmtp）或在首選項中切換到 SMTP。'）；
+
+/htdocs/modules/system/language/english/admin/users.php
+- 新增了定義（'_AM_SYSTEM_USERS_UNKNOWN_GROUP'，'未知群組'）；
+
+/htdocs/modules/system/language/english/comment.php
+- 新增了定義（'_CM_ADDCOMMENT'，'新增評論'）；
+
+
+/htdocs/install/語言/english/install.php
+- 新增了定義（'_WEBSITE_NAME'，'XOOPS站點'）；
+- 新增了定義（'_WEBSITE_SLOGAN'，'只需使用它！'）；
+- 新增了定義（'_WEBSITE_META_KEYWORDS'，'xoops，Web應用程式框架，cms，內容管理系統'）；
+- 新增了定義('_WEBSITE_FOOTER', "由 XOOPS © 2001-{X_YEAR} <a href='https://xoops.org' rel='external' title='XOOPS 項目'>XOOPS 項目</a>");
+- 新增了定義('_WEBSITE_COPYRIGHT', '版權所有 © 2001-{X_YEAR}');
+- 新增了定義（'_WEBSITE_DESCRIPTION'，'XOOPS 是一個用 PHP 編寫的動態物件導向的開源入口網站腳本。'）；
+- 新增了定義（'_WEBSITE_CENSOR_REPLACE'，'OOPS'）；
+
+
+================================
+2023/10/01：版本 2.5.11-最終版
+================================
+/語言/英語/uploader.php
+-added Define('_ER_UP_MODE_NOT_CHANGED', '檔案已上傳，但無法變更模式');
+
+================================
+2023/10/01：版本2.5.11-RC3
+================================
+
+更改的檔案：
+升級/語言/英語/upgrade.php
+升級/語言/英語/smarty3.php
+
+htdocs/class/xoopseditor/tinymce/language/english.php
+- 新增了定義（'_FAILGETIMG'，'無法取得影像%s'）；
+
+/htdocs/modules/system/language/english/modinfo.php
+- 新增了定義（'_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE'，'暫時停用'）；
+- 新增了定義（'_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL'，'電子郵件'）；
+- 新增了define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', '私人訊息');
+
+/htdocs/modules/system/language/english/admin/preferences.php
+- 新增了define('_MD_AM_DEFAULT_NOTIFICATION_METHOD', '預設通知方法');
+- 新增了定義（'_MD_AM_DEFAULT_NOTIFICATION_METHOD_DESC'，'對於新用戶，當他們訂閱來自論壇等的通知時。'）；
+- 新增了定義('_MD_AM_MODULEPREF',
+
+
+================================
+2023/03/19：版本 2.5.11-RC1
+================================
+
+更改的檔案：
+htdocs/語言/english/global.php
+- 添加了定义（'_DB_QUERY_ERROR'，'查询失败！SQL：%s - 错误：'）；
+- 新增了定義('_PRINT', 'Print');
+- 新增了定義('_PDF', 'PDF');
+- 新增了定義（'_OFF'，'Off'）；
+
+================================
+2021/09/02：版本 2.5.11-Betas
+================================
+
+更改的檔案：
+htdocs/語言/english/admin.php
+- 新增了定義('_AD_WARNING_NO_XML', '此函數需要 PHP XML 擴充。');
+
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- 新增了定義（'_AM_ADMINSTATS_LAST_MONTH'，'上個月'）；
+- 新增了定義('_AM_ADMINSTATS_LAST_WEEK', '上週');
+- 新增了定義('_AM_ADMINSTATS_LAST_DAY', '最後一天');
+- 新增了定義('_AM_ADMINSTATS_LAST_HOUR', '最後一小時');
+
+htdocs/語言/english/global.php
+- 新增了定義('_PRINT', 'Print');
+- 新增了定義('_PDF', 'PDF');
+- 新增了定義（'_OFF'，'Off'）；
+- 更改了定義('_ON', 'On'); //從「上」開始
+
+htdocs/語言/english/global.php
+- 更改了定義（'_SIZE'，'大小'）； // 字體大小
+- 更改了定義（'_FONT'，'字體'）； // 字體系列
+- 更改了定義（'_COLOR'，'顏色'）； // 字體顏色
+
+htdocs/install/語言/english/install.php
+- 新增了定義（'ERR_COPY_CONFIG_FILE'，'無法複製設定檔%s'）；
+
+htdocs/install/language/english/welcome.php
+- 更改了推荐的 PHP 和 MySQL 版本，链接更改为“https:”
+
+htdocs/modules/system/language/english/admin/preferences.php
+- 更改了define('_MD_AM_SMTPHOSTDESC', '單一主機名稱或多個分號分隔的主機名稱。 。
+
+htdocs/modules/system/language/english/help/blocksadmin.html
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- 更改了定義（'_AM_SYSTEM_MODULES_ADMIN'，'XOOPS 模組管理'）；
+
+新文件：
+htdocs/themes/xswatch4/language/english/main.php
+作為 xswatch/language/english/main.php 的副本啟動，然後：
+- 新增了定義（'THEME_TOOLBAR_DEBUGMODE'，'調試模式'）；
+- 新增了定義（'THEME_TOOLBAR_THIS_MODULE'，'此模組'）；
+- 新增了定義（'THEME_PERMISSIONS_LEGEND'，'權限和圖例'）；
+- 新增了定義('THEME_INBOX_ALERT', 'PM Alert');
+- 新增了定義（'THEME_INBOX_LINK'，'按此處查看您的收件匣！'）；
+- 新增了定義（'THEME_EVENT_DOWNLOADS'，'事件下載'）；
+- 新增了定義('THEME_FILE_NAME', '檔案');
+- 新增了定義（'THEME_FILE_SIZE'，'大小'）；
+- 新增了定義('THEME_CONTROL_NEXT', 'Next');
+- 新增了定義（'THEME_CONTROL_PREVIOUS'，'上一個'）；
+
+htdocs/language/english/user.php
+- 新增了定義（'_US_DESCRIPTIONMIN'，'最小所需長度：%s'）；
+- 新增了定義（'_US_DESCRIPTIONMAX'，'最大長度：%s'）；
+
+htdocs/modules/system/language/english/admin/mailusers.php
+- 新增了定義('_AM_SYSTEM_MAILUSERS_MAILTAGS5', '{X_NAME} 將列印 name 或 uname 如果為空');
+
+htdocs/modules/system/language/english/admin/images.php
+- 新增了定義（“_AM_SYSTEM_IMAGES_SCATDELNG”，“無法刪除此類別”）；
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- 新增了定義（'_AM_SYSTEM_MODULES_INSTALL_THISMODULE'，'此模組管理員'）；
+
+刪除的檔案：
+htdocs/modules/system/language/english/admin/users.php
+- 刪除定義('_AM_SYSTEM_USERS_MODIFYUSER', '修改使用者');
+- 刪除定義('_AM_SYSTEM_USERS_DELUSER', '刪除使用者');
+- 刪除定義('_AM_SYSTEM_USERS_GO', 'Go!');
+
+================================
+2019/04/29：2.5.10 最終版本
+================================
+新增/刪除定義：
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- 新增了define('_AM_LABEL_BAN_BY_IP', '禁止檢查記錄上的IP:');
+- 新增了定義('_AM_BUTTON_BAN_BY_IP', 'IP 禁令!');
+- 新增了定義('_AM_JS_BANCONFIRM', 'IP 禁止可以嗎？');
+- 新增了定義('_AM_MSG_BANNEDIP', 'IP 被禁止');
+- 新增了定義（'_AM_ADMINSTATS_TITLE'，'保護器日誌摘要'）；
+
+htdocs/xoops_lib/modules/protector/language/english/modinfo.php
+- 新增了定義($constpref.'_ADMINSTATS','概述');
+- 增加了定義($constpref . '_BANIP_TIME0DSC', '自動 IP 禁令的暫停時間（以秒為單位）');
+
+htdocs/language/english/uploader.php
+- 新增了定義（'_ER_UP_INDEXNOTSET'，'嘗試取得多個文件，必須設定索引。'）；
+
+htdocs/語言/english/admin.php
+- 新增了定義（'_AD_WARNING_OLD_PHP'，'警告：考慮升級到較新版本的 PHP。建議使用 %s 或更高版本，並且在未來的 XOOPS 版本中將需要該版本。'）；
+
+改變了定義
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- Define('_AM_TXT_HOWTOCHANGEDB',"如果要更改前綴，<br>手動編輯%s/data/secure.php。<br><br>define('XOOPS_DB_PREFIX', '<b>%s</b>');");
+
+htdocs/install/english/welcome.php
+- 更改了推荐的 PHP 版本，添加了 SELinux 的特别注释部分
+
+/home/richard/sites/x258i/htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- in define of '_AM_MODULEADMIN_ADMIN_FOOTER', changed XOOPS links to 'https://xoops.org'
+
+新文件：
+不適用
+
+===============================
+2017/08/01：版本2.5.9最終版
+===============================
+新增/刪除定義
+
+htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- 新增了定義（'_AM_MODULEADMIN_ABOUT_AMOUNT'，'金額'）；
+- 新增了定義('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', '請輸入美元金額，例如 $25.00');
+- 新增了定義('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
+- 新增了定義（'_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED'，'25.00'）；
+- 新增了定義('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
+- 新增了定義('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', '使用 PayPal 或主要信用卡線上捐款！');
+
+htdocs/install/語言/english/install.php
+*注意* 安裝程式已發生重大更改，因此應仔細檢查此文件
+- 新增了定義（“CURL_HTTP”，“客戶端URL庫（cURL）”）；
+- 新增了定義('XOOPS_COOKIE_DOMAIN_LABEL', '網站的 Cookie 網域');
+- 新增了定義（'XOOPS_COOKIE_DOMAIN_HELP'，'設定cookie的網域。可以為空，URL中的完整主機（www.example.com），或沒有子網域（example.com）的註冊網域以跨子網域共用（www.example.com和blog.example.com。）'blog.example.com和blog.example.com。）'）；
+- 新增了定義（'INTL_SUPPORT'，'國際化函數'）；
+- 新增了定義（'XOOPS_SOURCE_CODE'，“GitHub 上的 XOOPS”）；
+- 新增了定義（'XOOPS_INSTALLING'，'安裝'）；
+- 新增了定義（'XOOPS_ERROR_ENCOUNTERED'，'錯誤'）；
+- 新增了定義('XOOPS_ERROR_SEE_BELOW', '請參閱下面的訊息。');
+- 新增了定義（'MODULES_AVAILABLE'，'可用模組'）；
+- 新增定義('INSTALL_THIS_MODULE', '新增 %s');
+
+htdocs/install/language/english/finish.php
+- 進行更改以將新用戶引薦至 xoops.org 以獲取有關模組和主題的信息
+
+htdocs/語言/english/global.php
+- 新增了定義（'_UPLOAD'，'上傳'）；
+- 新增了定義（'_SELECTFILES'，'選擇檔案'）；
+- 新增了定義（'_DROPFILESHERE'，'將檔案拖放到此處'）；
+- 新增了定義（'_RETRY'，'重試'）；
+- 新增了定義('_OK', 'Ok');
+- 新增了定義('_FORMATPROGRESS', '{total_size}的{percent}%');
+- 新增了定義（'_FAILUPLOAD'，'上傳失敗！'）；
+- 新增了定義（'_WAITINGFORRESPONSE'，'處理...'）；
+- 新增了定義（'_PAUSED'，'暫停'）；
+- 添加了定义（'_PROCESSINGDROPPEDFILES'，'处理删除的文件...'）；
+- 新增了定義（'_TYPEERROR'，'{file} 具有無效副檔名。有效副檔名：{extensions}!'）；
+- 新增了定義('_SIZEERROR', '{file} 太大，最大檔案大小為 {sizeLimit}!');
+- 新增了定義('_MINSIZEERROR', '{file} 太小，最小檔案大小為 {minSizeLimit}!');
+- 新增了define('_EMPTYERROR', '{file}為空，請再次選擇沒有它的檔案！');
+- 新增了定義（'_NOFILESERROR'，'沒有要上傳的檔案！'）；
+- 新增了定義（'_TOOMANYITEMSERROR'，'將上傳太多項目（{netItems}）。項目限制為{itemLimit}！'）；
+- 新增了定義（'_MAXHEIGHTIMAGEERROR'，'圖像太高！'）；
+- 新增了定義（'_MAXWIDTHIMAGEERROR'，'圖像太寬！'）；
+- 新增了定義('_MINHEIGHTIMAGEERROR', '影像不夠高！');
+- 新增了定義（'_MINWIDTHIMAGEERROR'，'圖像不夠寬！'）；
+- 新增了定義（'_RETRYFAILTOOMANYITEMS'，'重試失敗 - 您已達到文件限制！'）；
+- 新增了define('_ONLEAVE', '檔案正在上傳，如果現在離開上傳將被取消！');
+- 新增了定義（'_UNSUPPORTEDBROWSERIOS8SAFARI'，'不可恢復的錯誤 - 由於 iOS8 Safari 中的嚴重錯誤，此瀏覽器不允許上傳任何類型的文件。請使用 iOS8 Chrome，直到 Apple 修復這些問題！'）；
+
+htdocs/language/english/uploader.php
+- 新增define('_ER_UP_INISIZE', '上傳的檔案超過php.ini中的upload_max_filesize指令');
+- 新增了define('_ER_UP_FORMSIZE', '上傳的檔案超出了HTML表單中指定的MAX_FILE_SIZE指令');
+- 新增了define('_ER_UP_PARTIAL', '上傳的檔案僅部分上傳');
+- 新增了定義（'_ER_UP_NOFILE'，'沒有上傳檔案'）；
+- 新增了定義（'_ER_UP_NOTMPDIR'，'缺少臨時資料夾'）；
+- 新增了定義（'_ER_UP_CANTWRITE'，'無法將檔案寫入磁碟'）；
+- 新增了define('_ER_UP_EXTENSION', '檔案上傳被擴充停止。查看phpinfo()');
+- 新增了定義（'_ER_UP_UNKNOWN'，'未知上傳錯誤'）；
+
+htdocs/language/english/user.php
+- 刪除了define('_US_USECOOKIE', '將我的使用者名稱儲存在cookie中1年');
+
+htdocs/modules/profile/language/english/admin.php
+- 新增了定義('_PROFILE_AM_CANNOTDEACTIVATEWEBMASTERS', '您無法停用網站站長帳號');
+
+htdocs/modules/system/language/english/admin/comments.php
+- 新增了define('_MP_DELETECOUNT', '群組成員數量太大(> 4,000)');
+
+htdocs/modules/system/language/english/admin/userrank.php
+- 新增了定義（'_AM_SYSTEM_USERRANK_ERROR'，'錯誤'）；
+
+升級/語言/英語/upgrade.php
+- 新增了定義（'_LANGUAGE'，'語言'）；
+- 新增了定義（'_SUPPORT'，'支援'）；
+- 新增了定義（'_XOOPS_SOURCE_CODE'，'GitHub 上的 XOOPS'）；
+- 新增了定義（'_PATCH_COUNT'，'補丁集'）；
+- 新增了定義（'_USERNAME_PLACEHOLDER'，'您的使用者名稱'）；
+- 新增了定義（'_PASSWORD_PLACEHOLDER'，'您的密碼'）；
+- 新增了定義（'_CONTINUE'，'繼續'）；
+- 新增了定義（'XOOPS_ERROR_ENCOUNTERED'，'錯誤'）；
+- 新增了定義('XOOPS_ERROR_SEE_BELOW', '請參閱下面的訊息。');
+
+htdocs/themes/xbootstrap/language/english/main.php
+- 新增了定義（“THEME_USER_WELCOME”，“歡迎”）；
+
+新文件：
+- htdocs/modules/system/themes/transition/language/english/admin.php
+- htdocs/modules/system/themes/transition/language/english/localsupport.php
+
+- 升級/語言/英語/
+*注意* 升級程式碼已發生重大更改，因此應仔細檢查這些文件
+- 將所有補丁語言檔案從補丁目錄移至升級/語言/*
+  即升級/upd-2.0.18-to-2.3.0/language/english.php 變成
+  升級/語言/英語/upd-2.0.18-to-2.3.0.php
+
+- 升級/語言/英語/support.php（與htdocs/install/language/english/support.php相同）
+- 升級/語言/英語/welcome.php
+
+===============================
+2016/05/27：版本2.5.8
+===============================
+新增/刪除定義
+
+/install/語言/english/install.php
+/modules/system/language/english/admin/modulesadmin.php
+- 新增了定義('_AM_SYSTEM_MODULES_INSTALL_MORE',"安裝更多模組");
+
+/modules/system/language/english/admin/users.php
+Define('_AM_SYSTEM_USERS_ACTIVATE', '啟動使用者');
+
+/modules/system/language/english/blocks.php
+Define('_MB_SYSTEM_BLOCK_HEIGHT',"區塊高度(行)");
+
+安裝/語言/英文/install.php
+定義('CHMOD_CHGRP_REPEAT', '重試');
+定義（'CHMOD_CHGRP_IGNORE'，'無論如何使用'）;
+Define('CHMOD_CHGRP_ERROR', '安裝程式可能無法寫入設定檔 %1$s。<p>PHP 正在使用者 %2$s 和群組 %3$s 下寫入檔案。<p>可怕的
+
+改變了定義
+xoops_lib/modules/protector/language/english/modinfo.php
+定義($constpref . '_HIJACK_TOPBITDSC', ...
+
+/modules/system/themes/default/language/english/admin.php
+Define('_OXYGEN_CODESVN', '程式碼儲存庫');
+
+安裝/語言/英文/install.php
+Define('SAVED_MAINFILE', '設定已儲存');
+Define('ERR_NEED_WRITE_ACCESS', '必須授予伺服器對下列檔案和資料夾的寫入權限<br />（即 UNIX/LINUX 伺服器上的<em>chmod 775 Directory_name</em>）<br />如果它們不可用或未正確建立，請手動建立並設定適當的權限。
+Define('ERR_COPY_MAINFILE', '無法將分發檔案複製到 %s');
+Define('ERR_WRITE_MAINFILE', '無法寫入%s。請檢查檔案權限並重試。');
+Define('ERR_READ_MAINFILE', '無法開啟 %s 進行讀取');
+
+/modules/system/themes/zetadigme/language/english/admin.php
+Define('_MD_CODESVN', '程式碼庫');
+
+新文件：
+/語言/英語/stopwords.php
+/語言/english/xmf.php
+
+更新的 XoopsMailerLocal 類別範例：
+htdocs/語言/english/xoopsmailerlocal.php
+
+===============================
+2014/06/14：版本 2.5.7 最終版
+===============================
+新增/刪除定義
+
+/install/語言/english/install.php
+- 新增了定義('WRITTEN_LICENSE',"Written XOOPS %s 許可證金鑰:<strong>%s</strong>");
+
+===============================
+2014/03/18：版本 2.5.7 RC1
+===============================
+新增/刪除定義
+
+/modules/system/language/english/admin.php
+- 新增了定義('_AM_SYSTEM_USAGE',"用法");
+- 新增了定義('_AM_SYSTEM_ACTIVE',"Active");
+
+
+===============================
+2012/04/15：版本2.5.5
+===============================
+新增/刪除定義
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- 新增了定義（“_AM_MODULEADMIN_HOME”，“Home”）；
+- 新增了定義（“_AM_MODULEADMIN_DASHBOARD”，“儀表板”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT”，“關於”）；
+- 新增了定義（“_AM_MODULEADMIN_PERMISSIONS”，“權限”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_RELEASEDATE”，“已發佈：”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_AUTHOR”，“作者：”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_CREDITS”，“學分：”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_LICENSE”，“許可證：”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_AUTHOR_NAME”，“作者姓名：”）；
+- 新增了定義（“_AM_MODULEADMIN_ABOUT_AUTHOR_INFO”，“作者資訊”）；
+- 新增了定義（“_AM_MODULEADMIN_ADMIN_FOOTER”，“<div class='centersmallsmall italic pad5'>此模組由<a class='tooltip'rel='external'href='http://xoops.org/' title='divXOPSOOPSa>HdivOOPSa>」社區）存取；
+
+/語言/english/calendar.php
+- 新增了定義（“_CAL_FORMAT”，“Y-m-d”）；
+
+/xoops_lib/modules/protector/語言/english/modinfo.php
+
+- 新增了定義($constpref."_ADMINHOME","Home");
+- 新增了定義($constpref."_ADMINABOUT","關於");
+- 新增了定義($constpref.'_STOPFORUMSPAM_ACTION','停止論壇垃圾郵件');
+- 新增了定義($constpref.'_STOPFORUMSPAM_ACTIONDSC','檢查在 www.stopforumspam.com 資料庫上註冊的垃圾郵件發送者的 POST 資料。需要 php CURL lib。');
+
+
+/install/語言/english/install.php
+- 新增了定義（“FILTER_FUNCTIONS”，“過濾器函數”）；
+
+/語言/英語/global.php
+- 新增了定義（'_DBDATESTRING'，'Y-m-d'）；
+- 新增了定義('_DBTIMESTRING', 'H:i:s');
+- 新增了定義('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
+
+/語言/英語/pmsg.php
+- 新增了定義（'_PM_READ'，'已讀'）；
+
+/modules/system/language/english/admin.php
+- 新增了定義（“_AM_SYSTEM_UNINSTALL”，“卸載”）；
+
+另請參閱：
+/modules/profile/docs/lang_diff.txt
+
+===============================
+2011/11/17：版本2.5.4
+===============================
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+_AM_MODULEADMIN_CONFIG_DB
+_AM_MODULEADMIN_CONFIG_ADMIN
+
+===============================
+2011/10/10：版本 2.5.4 RC
+===============================
+
+新文件：
+模組/pm/language/english/help/help.html
+模組/profile/語言/english/help/help.html
+模組/保護器/語言/english/help/help.html
+
+新增/刪除定義
+
+/語言/英語/pmsg.php
+刪除定義('_PM_READ','已讀');
+
+/語言/英語/user.php
+- 新增了定義('_US_SKYPE', 'Skype');
+- 新增了定義（'_US_FACEBOOK'，'Facebook'）；
+
+/modules/pm/language/english/main.php
+- 刪除定義("_PM_RECEIVE","RECEIVE");
+- 刪除define("_PM_POST","POST");
+- 刪除定義("_PM_READBOX","READBOX");
+- 刪除定義("_PM_RSAVEBOX","Receive_SAVEBOX");
+- 刪除define("_PM_SENTBOX","SENTBOX");
+- 刪除定義("_PM_PSAVEBOX","Post_SAVEBOX");
+- 刪除define("_PM_SAVED","儲存成功");
+- 刪除定義（“_PM_TOC”，“來自：”）；
+- 刪除define("_PM_UID","寄件者ID");
+
+/語言/english/finduusers.php
+- 新增了定義('_MA_USER_FACEBOOK', 'Facebook Link'); //待辦事項
+- 新增了定義('_MA_USER_SKYPE', 'Skype Link');//TO DO
+
+/modules/pm/language/english/modinfo.php
+- 新增了定義（“_PM_MI_ABOUT”，“關於”）；
+
+/modules/profile/language/english/admin.php
+- 新增了定義('_PROFILE_AM_ACTION', 'Action');
+
+/modules/profile/language/english/modinfo.php
+- 新增了定義（“_PROFILE_MI_ABOUT”，“關於”）；
+- 新增了定義（“_PROFILE_MI_HOME”，“主頁”）；
+
+
+/modules/system/language/english/admin/preferences.php
+- 刪除define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL","常規設定");
+- 刪除define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS","使用者資訊設定");
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER”，“元標籤和頁腳”）；
+- 刪除了定義（“_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR”，“單字審查選項”）；
+- 刪除define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH","搜尋選項");
+- 刪除定義("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","電子郵件設定");
+- 刪除定義("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","驗證選項");*/
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL”，“公平”）；
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS”，“公平”）；
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER”，“公平”）；
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR”，“公平”）；
+- 删除定义（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH”，“公平”）；
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER”，“公平”）；
+- 刪除定義（“_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION”，“公平”）；
+- 刪除define("_MD_AM_LOADINGIMG", "顯示正在載入...圖片？");
+- 刪除define("_MD_AM_CHNGUTHEME", "更改所有使用者的主題");
+
+/modules/system/language/english/admin/users.php
+- 新增了定義（“_AM_SYSTEM_USERS_ACCEPT_EMAIL”，“接受來自管理員的電子郵件”）；
+
+- 刪除定義("_AM_SYSTEM_USERS_NAV_MANAGER","使用者管理員");
+- 刪除define("_AM_SYSTEM_USERS_USERPOST","使用者貼文");
+- 刪除定義("_AM_SYSTEM_USERS_STORIES","Stories");
+- 刪除define("_AM_SYSTEM_USERS_COMMENTS","Comments");
+- 刪除define("_AM_SYSTEM_USERS_PTBBTSDIYT","如果您認為上面的使用者發布資訊似乎並不表示實際狀態，請按下面的按鈕同步資料");
+- 刪除define("_AM_SYSTEM_USERS_CNGTCOM","無法獲得全部評論");
+- 删除定义（“_AM_SYSTEM_USERS_CNGTST”，“无法获取总故事数”）；
+- 刪除define("_AM_SYSTEM_USERS_LIST","List");
+- 刪除define("_AM_SYSTEM_USERS_USERPOST","使用者貼文");
+- 刪除定義("_AM_SYSTEM_USERS_STORIES","Stories");
+- 刪除define("_AM_SYSTEM_USERS_COMMENTS","Comments");
+- 刪除define("_AM_SYSTEM_USERS_PTBBTSDIYT","如果您認為上述使用者發布資訊不代表實際狀態，請按下下方的按鈕同步資料");
+- 刪除define("_AM_SYSTEM_USERS_CNGTCOM","無法取得所有註解");
+- 刪除定義("_AM_SYSTEM_USERS_CNGTST","無法取得所有故事");
+- 刪除define("_AM_SYSTEM_USERS_LIST","List");
+
+xoops_lib/modules/protector/language/english/admin.php
+- 新增了定義（“_AM_ADV_REGISTERGLOBALS2”，“並將以下行放入其中：”）；
+
+更改的檔案：
+
+/modules/system/language/english/admin/users.php (Mamba)/
+/語言/英語/mail_template/activated.tpl
+/語言/英文/mail_template/adminactivate.tpl
+/語言/英文/mail_template/lostpass1.tpl
+/語言/英文/mail_template/lostpass2.tpl
+/語言/英語/mail_template/register.tpl
+/語言/英語/mail_template/welcome.tpl
+/modules/system/language/english/admin/avatars.php
+/modules/system/language/english/admin/banners.php
+/modules/system/language/english/admin/blocksadmin.php
+/modules/system/language/english/admin/comments.php
+/modules/system/language/english/admin/preferences.php
+/modules/system/language/english/admin/userrank.php
+/modules/system/language/english/admin/users.php
+/modules/system/language/english/help/mailusers.html
+/modules/system/language/english/help/preferences.html
+/modules/system/language/english/admin.php
+/modules/system/language/english/blocks.php
+/modules/system/language/english/modinfo.php
+/modules/system/themes/default/language/english/admin.php
+/modules/system/themes/zetadigme/language/english/admin.php
+/themes/suico/language/english/main.php
+/主題/zetagenesis/語言/英文/main.php
+
+
+===============================
+2011/10/05：版本 2.5.4 測試版
+===============================
+- 更新了幾本英文翻譯（DCrussader/Mamba）
+- 刪除 language/english/calendar.php _CAL_DEF_DATE_FORMAT
+- 刪除 language/english/calendar.php _CAL_TT_DATE_FORMAT
+- 刪除模組/系統/語言/english/admin/users.php _AM_SYSTEM_USERS_NAV_MANAGER
+- 刪除模組/系統/語言/english/admin/preferences.php _MD_AM_LOADINGIMG
+- 刪除模組/系統/語言/english/admin/preferences.php _MD_AM_CHNGUTHEME
+- 刪除模組/pm/language/english/admin/main.php _PM_RECEIVE、_PM_POST、_PM_READBOX、_PM_RSAVEBOX、_PM_SENTBOX、_PM_PSAVEBOX、_PM_SAVED、_PM_TOC
+- 新增了 /modules/profile/language/english/admin.php _PROFILE_AM_ACTION
+- 新增了/modules/profile/language/english/main.php _PROFILE_MI_ABOUT
+- 新增了 /modules/profile/language/english/main.php _PROFILE_MI_HOME
+- 新增了/modules/pm/language/english/modinfo.php _PM_MI_ABOUT
+- 新增模組/系統/語言/english/admin/users.php _AM_SYSTEM_USERS_FACEBOOK，_AM_SYSTEM_USERS_SKYPE
+- 新增了 language/english/user.php _US_SKYPE、_US_FACEBOOK
+
+xoops_lib/modules/protector/language/english/modinfo.php
+- 新增了定義($constpref.'_STOPFORUMSPAM_ACTION','停止論壇垃圾郵件');
+- 新增了定義($constpref.'_STOPFORUMSPAM_ACTIONDSC','檢查在 www.stopforumspam.com 資料庫上註冊的垃圾郵件發送者的 POST 資料。需要 php CURL lib。');
+
+
+
+===============================
+2011/09/06：版本 2.5.2 RC
+===============================
+ - 新增了 language/english/misc.php _MSC_CLICK_TO_OPEN_IMAGE、_MSC_RESIZED_IMAGE、_MSC_ORIGINAL_IMAGE
+ - 新增了 language/english/pmsg.php _PM_SURE_TO_DELETE, _PM_READ
+ - 新增了模組/pm/language/english/admin/main.php _PM_READ、_PM_SUBJECT_ICONS
+ - 模組\系統/語言/英文/admin/tplsets.php _AM_SYSTEM_TEMPLATES_SET
+ - 刪除模組/系統/主題/預設/語言/english/admin/admin.php _OXYGEN_XOOPSENGINE
+ - 刪除模組/系統/語言/english/admin/blocksadmin.php _AM_SYSTEM_BLOCKS_SAVE
+ - 新增了 language/english/calendar.php _CAL_DEF_DATE_FORMAT
+ - 新增了 language/english/calendar.php _CAL_TT_DATE_FORMAT
+
+===============================
+2011/03/15：版本 2.5.1 RC
+===============================
+
+增加了語言常數：
+  模块/系统/语言/english/admin/images.php _AM_SYSTEM_IMAGES_URL
+  模組/系統/主題/預設/語言/english/admin/admin.php _OXYGEN_XOOPSENGINE
+
+修改後的語言常數：
+  模組/系統/主題/預設/語言/english/admin/admin.php _OXYGEN_ABOUT_TEXT，_OXYGEN_WEBSITE
+  模組/系統/語言/英語/helper/help_center.html，modulesadmin.html
+
+刪除的語言常數：
+  模組/系統/主題/預設/語言/english/admin/admin.php _OXYGEN_XGIFTSHOP、_OXYGEN_XDONATIONS、_OXYGEN_XDONATIONS_TEXT、_OXYGEN_KEY、_OXYGEN_LICENSE、OUROXYGEN
+  模組/系統/主題/預設/語言/english/admin/admin.php _OXYGEN_XGIFTSHOP、_OXYGEN_XDONATIONS、_OXYGEN_XDONATIONS_TEXT、_OXYGEN_KEY、_OXYGEN_LICENSE、OUROXYGEN
